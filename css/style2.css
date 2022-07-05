@@ -292,6 +292,7 @@ span {
 
 .portofolio .mySlides {
   display: none;
+  width: 100%;
 }
 
 .portofolio .card .button {
@@ -460,5 +461,29 @@ footer p:nth-child(2) {
     text-align: center;
     margin-left: -244px;
     margin-top: -35%;
+  }
+}
+
+@media screen and (max-width: 500px) {
+  .portofolio .title h2 {
+    font-size: 32px;
+    margin-left: 30%;
+    text-align: unset;
+  }
+  .portofolio .card {
+    width: 270px;
+    height: 390px;
+    margin-left: 5%;
+  }
+
+  .portofolio .main .box .card h5 {
+    font-size: 12px;
+  }
+  .portofolio .main .box .card .desc p {
+    font-size: 10px;
+  }
+  .portofolio .mySlides {
+    width: 75%;
+    margin-left: 10%;
   }
 }
