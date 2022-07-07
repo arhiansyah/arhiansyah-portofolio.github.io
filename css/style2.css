@@ -7,6 +7,7 @@
 }
 body {
   overflow-x: hidden;
+  overflow-y: hidden;
 }
 .main-width {
   width: 1280px;
@@ -489,12 +490,17 @@ footer p:nth-child(2) {
   }
 
   .about .main .images img {
-    margin-left: 95%;
+    margin-left: 115%;
+    width: 175%;
+  }
+  .about .main .images .boy {
+    width: 95%;
+    /* margin-top: -25%; */
   }
   .about .main .about-text h2 {
     font-size: 30px;
     margin-left: -25%;
-    margin-top: 35%;
+    margin-top: 95%;
   }
   .about .about-text p {
     font-size: 10px;
